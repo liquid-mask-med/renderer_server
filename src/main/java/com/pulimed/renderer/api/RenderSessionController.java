@@ -10,6 +10,7 @@ import java.util.Map;
 import java.util.UUID;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/render/sessions")
 public class RenderSessionController {
     private final RenderSessionService sessions;
