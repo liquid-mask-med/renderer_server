@@ -1,0 +1,6 @@
+.idea/
+target/
+native/
+shaders/
+*.iml
+*.log
